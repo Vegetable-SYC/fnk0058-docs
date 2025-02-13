@@ -85,7 +85,7 @@ Installation of Development Board Support Package
 
 1.	Make sure your network is of good connection.
 
-2.	Open Arduino IDE, and click File>Preference. In new pop-up window, find “Additional Boards Manager URLs”, and replace with a new line：
+2.	Open Arduino IDE, and click File>Preference. In new pop-up window, find "Additional Boards Manager URLs", and replace with a new line：
 
 https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
 
@@ -99,12 +99,12 @@ As shown below:
 .. image:: ../_static/imgs/0_Ready/Chapter00_11.png
     :align: center
 
-4.	Enter Pico in the searching box, and select “Raspberry Pi Pico/RP2040” and click on Install.
+4.	Enter Pico in the searching box, and select "Raspberry Pi Pico/RP2040" and click on Install.
 
 .. image:: ../_static/imgs/0_Ready/Chapter00_12.png
     :align: center
 
-5.	Click Yes in the pop-up “dpinst-amd64.exe”installation window. (Without it, you will fail to communicate with Arduino.) Thus far, we have finished installing the development support package.
+5.	Click Yes in the pop-up "dpinst-amd64.exe"installation window. (Without it, you will fail to communicate with Arduino.) Thus far, we have finished installing the development support package.
 
 .. _Firmware:
 
