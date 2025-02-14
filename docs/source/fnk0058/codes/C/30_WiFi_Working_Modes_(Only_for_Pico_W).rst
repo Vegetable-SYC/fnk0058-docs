@@ -54,7 +54,7 @@ Sketch_30.1_Station_mode
 .. image:: ../_static/imgs/30_WiFi_Working_Modes_(Only_for_Pico_W)/Chapter30_02.png
     :align: center
 
-Because the names and passwords of routers are different, before the Sketch runs, users need to enter the correct router’s name and password in the box as shown in the illustration above.
+Because the names and passwords of routers are different, before the Sketch runs, users need to enter the correct router's name and password in the box as shown in the illustration above.
 
 After making sure the router name and password are entered correctly, compile and upload codes to Pico W, open serial monitor and set baud rate to 115200. Then it will display as follows:  
 
@@ -143,7 +143,7 @@ Reference
     
     **disconnect():** disconnect wifi
 
-Project 30.2 AP mode
+Project AP mode
 ***********************************
 
 Component List & Circuit
@@ -173,7 +173,7 @@ Connect Pico W to the computer using the USB cable.
 Sketch
 ==============================
 
-Sketch_30.2_AP_mode
+Sketch_AP_mode
 -----------------------------------
 
 .. image:: ../_static/imgs/30_WiFi_Working_Modes_(Only_for_Pico_W)/Chapter30_05.png

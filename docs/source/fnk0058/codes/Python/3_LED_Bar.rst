@@ -135,7 +135,7 @@ Reference
     
     start: initial value, from which the for loop starts counting. The default initial value is 0. For example, range(5) equals to range(0, 5).
     
-    end: the value with which the function ends. For loop counts till it arrives at this value, but this value isn’t included in the counting.
+    end: the value with which the function ends. For loop counts till it arrives at this value, but this value isn't included in the counting.
     
     num: Num is automatically added each time to the data. The default value is 1.
     

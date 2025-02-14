@@ -4,7 +4,7 @@ Chapter Bluetooth (Only for Pico W)
 
 In June 2023, Raspberry Pi Official has updated to add Bluetooth support to the Pico W.
 
-Pico W's Bluetooth 5.2 supports Bluetooth Classic and Bluetooth Low Energy (BLE) functionality. At the beginning of this chapter, we will learn the Pico W’s Bluetooth function.
+Pico W's Bluetooth 5.2 supports Bluetooth Classic and Bluetooth Low Energy (BLE) functionality. At the beginning of this chapter, we will learn the Pico W's Bluetooth function.
 
 If you have Pico in your hand, please change it to Pico W before continuing to learn.
 

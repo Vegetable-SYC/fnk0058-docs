@@ -80,7 +80,7 @@ Joystick
 .. image:: ../_static/imgs/13_Joystick/Chapter13_07.png
     :align: center
 
-Click "Run current script”. Shifting the Joystick or pressing it down will change the printed data in "Shell”. Press Ctrl+C or click "Stop/Restart backend” to exit the program. 
+Click "Run current script". Shifting the Joystick or pressing it down will change the printed data in "Shell". Press Ctrl+C or click "Stop/Restart backend" to exit the program. 
 
 .. image:: ../_static/imgs/13_Joystick/Chapter13_08.png
     :align: center

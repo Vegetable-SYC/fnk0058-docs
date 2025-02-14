@@ -226,21 +226,21 @@ Circuit
    :align: center
    
    * -  Schematic diagram
-   * -  |Chapter14_02|
+   * -  |Chapter15_10|
    * -  Hardware connection. 
        
         :red:`If you need any support, please contact us via:` support@freenove.com
-   * -  |Chapter14_03|
+   * -  |Chapter15_11|
     
-.. |Chapter15_10| image:: ../_static/imgs/14_74HC595_&_LED_Bar_Graph/Chapter15_10.png
-.. |Chapter15_11| image:: ../_static/imgs/14_74HC595_&_LED_Bar_Graph/Chapter15_11.png
+.. |Chapter15_10| image:: ../_static/imgs/15_74HC595_&_7-Segment_Display/Chapter15_10.png
+.. |Chapter15_11| image:: ../_static/imgs/15_74HC595_&_7-Segment_Display/Chapter15_11.png
 
 Code
 =======================
 
 In this code, we use the 74HC595 IC Chip to control the 4-Digit 7-Segment Display, and use the dynamic scanning method to show the changing number characters.
 
-Open "Thonny", click "This computer"  "D:"  "Micropython_Codes"  "15.2_4_Digit_7_Segment_Display". Select "my74HC595.py", right click your mouse to select "Upload to /", wait for "my74HC595.py" to be uploaded to Raspberry Pi Pico and double click "15.2_4_Digit_7_Segment_Display.py". 
+Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "15.2_4_Digit_7_Segment_Display". Select "my74HC595.py", right click your mouse to select "Upload to /", wait for "my74HC595.py" to be uploaded to Raspberry Pi Pico and double click "15.2_4_Digit_7_Segment_Display.py". 
 
 4_Digit_7_Segment_Display
 ------------------------------------
@@ -285,7 +285,7 @@ Request an object to drive 74HC595 and associate pins with it.
     :lines: 17-20
     :dedent:
 
-Make the digital tube display “0 1 2 3”.
+Make the digital tube display "0 1 2 3".
 
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.2_4_Digit_7_Segment_Display/15.2_4_Digit_7_Segment_Display.py
     :linenos: 

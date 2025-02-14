@@ -385,7 +385,7 @@ Disconnect Raspberry Pi Pico USB cable and reconnect it, the LED on pico will bl
 Uploading Code to Raspberry Pi Pico
 =========================================
 
-Select "00.0_HelloWorld.py" in "00.0_HelloWorld", right-click your mouse and select "Upload to /" to upload code to Raspberry Pi Pico’s root directory.
+Select "00.0_HelloWorld.py" in "00.0_HelloWorld", right-click your mouse and select "Upload to /" to upload code to Raspberry Pi Pico's root directory.
 
 .. image:: ../_static/imgs/0_Ready/Chapter00_68.png
     :align: center
@@ -400,7 +400,7 @@ Select "00.0_HelloWorld.py" in "MicroPython device", right-click to select "Down
 
 Deleting Files from Raspberry Pi Pico's Root Directory 
 
-Select "00.0_HelloWorld.py" in "MicroPython device", right-click it and select "Delete" to delete "00.0_HelloWorld.py" from Raspberry Pi Pico’s root directory.
+Select "00.0_HelloWorld.py" in "MicroPython device", right-click it and select "Delete" to delete "00.0_HelloWorld.py" from Raspberry Pi Pico's root directory.
 
 .. image:: ../_static/imgs/0_Ready/Chapter00_70.png
     :align: center

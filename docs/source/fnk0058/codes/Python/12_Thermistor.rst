@@ -97,7 +97,7 @@ The circuit of this project is similar to the one in the previous chapter. The o
 Code
 ===========================
 
-Open "Thonny", click "This computer"  "D:"  "Micropython_Codes"  "12.1_Thermometer" and double click "12.1_Thermometer.py". 
+Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "12.1_Thermometer" and double click "12.1_Thermometer.py". 
 
 Thermometer
 -----------------------------

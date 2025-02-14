@@ -231,7 +231,7 @@ Click "Run current script". Users can enter any data in "Shell" and press Enter.
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write_Usart0_to_Usart1/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
     :linenos: 
     :language: python
     :lines: 1-14
@@ -239,7 +239,7 @@ The following is the program code:
 
 Import UART、Pin and time modules.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write_Usart0_to_Usart1/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
     :linenos: 
     :language: python
     :lines: 1-2
@@ -247,7 +247,7 @@ Import UART、Pin and time modules.
 
 Create two UART objects and configure them as the parameters of UART0 and UART1.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write_Usart0_to_Usart1/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
     :linenos: 
     :language: python
     :lines: 4-5
@@ -255,7 +255,7 @@ Create two UART objects and configure them as the parameters of UART0 and UART1.
 
 Define a bytes value and assign it to rxDate.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write_Usart0_to_Usart1/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
     :linenos: 
     :language: python
     :lines: 8-8
@@ -263,7 +263,7 @@ Define a bytes value and assign it to rxDate.
 
 Define input_cnt to receive user input and convert it to a string format.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write_Usart0_to_Usart1/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
     :linenos: 
     :language: python
     :lines: 9-9
@@ -271,7 +271,7 @@ Define input_cnt to receive user input and convert it to a string format.
 
 myUsart1 calls write() function and writes the user input to UART1. 
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write_Usart0_to_Usart1/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
     :linenos: 
     :language: python
     :lines: 10-10
@@ -279,7 +279,7 @@ myUsart1 calls write() function and writes the user input to UART1.
 
 myUsart0 calls the read() function to read the data sent by UART1 bit by bit and save the rxData in the received variable. When myUsart0 calls any() to determine whether UART0 has read the data, when any() returns 0, UART0 has read the data sent by UART1.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write_Usart0_to_Usart1/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
     :linenos: 
     :language: python
     :lines: 12-13
@@ -287,7 +287,7 @@ myUsart0 calls the read() function to read the data sent by UART1 bit by bit and
 
 The decode() function is called to decode the data and print it out to "Shell."
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write_Usart0_to_Usart1/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.2_Serial_Read_and_Write/08.2_Serial_Read_and_Write_Usart0_to_Usart1.py
     :linenos: 
     :language: python
     :lines: 14-14
